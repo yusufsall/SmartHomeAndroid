@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_marginTop="15dp"
+android:layout_height="wrap_content">
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="15dp"
+    android:id="@+id/btn"
+    android:layout_alignBottom="@+id/img"
+    android:textColor="#fff"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_toStartOf="@+id/img"
+    android:background="@color/button"
+    android:text="Deneme" />
+
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/off"
+    android:id="@+id/img" />
+
+</RelativeLayout>

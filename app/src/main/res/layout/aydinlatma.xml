@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/loginback"
+    >
+
+    <include
+        layout="@layout/buttons"
+        android:id="@+id/first"
+        />
+    <include
+        layout="@layout/buttons"
+        android:id="@+id/second"
+        />
+    <include
+        layout="@layout/buttons"
+        android:id="@+id/third"
+        />
+    <include
+        layout="@layout/buttons"
+        android:id="@+id/fourth"
+        />
+    <include
+        layout="@layout/buttons"
+        android:id="@+id/fifth"
+        />
+    <include
+        layout="@layout/buttons"
+        android:id="@+id/sixth"
+        />
+
+</LinearLayout>

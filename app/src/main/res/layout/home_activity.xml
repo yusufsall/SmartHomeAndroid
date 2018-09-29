@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@color/loginback"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/balksz_1"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/aydinlatma"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/button"
+                android:text="Aydınlatma" />
+
+            <Button
+                android:id="@+id/enerji"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/aydinlatma"
+                android:background="@color/button"
+                android:text="Enerji" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="39dp"
+                android:layout_height="35dp"
+                android:layout_alignBottom="@+id/aydinlatma"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="14dp"
+                android:background="@drawable/a" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="36dp"
+                android:layout_height="37dp"
+                android:layout_alignBottom="@+id/diger"
+                android:layout_alignStart="@+id/imageView"
+                android:background="@drawable/balksz_5" />
+
+            <Button
+                android:id="@+id/kilit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/enerji"
+                android:background="@color/button"
+                android:text="Kapı Kilit" />
+
+            <Button
+                android:id="@+id/diger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/kilit"
+                android:background="@color/button"
+                android:text="Diğer" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="35dp"
+                android:layout_height="33dp"
+                android:layout_alignBottom="@+id/enerji"
+                android:layout_alignEnd="@+id/imageView3"
+                android:background="@drawable/balksz_3" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="36dp"
+                android:layout_height="37dp"
+                android:layout_alignBottom="@+id/kilit"
+                android:layout_alignStart="@+id/imageView4"
+                android:background="@drawable/balksz_4" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

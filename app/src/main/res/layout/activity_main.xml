@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sal.yusuf.numur.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="8dp"
+        android:background="@color/loginback"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="8dp">
+
+        <ImageView
+            android:layout_width="149dp"
+            android:layout_height="169dp"
+            android:background="@drawable/lock" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Kullanıcı Adı"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="15dp"
+            android:ems="10"
+            android:hint="Şifre"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="66dp"
+            tools:layout_editor_absoluteY="70dp" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/button"
+            android:text="Giriş Yap"
+            tools:layout_editor_absoluteX="128dp"
+            tools:layout_editor_absoluteY="152dp" />
+
+    </LinearLayout>
+</LinearLayout>
